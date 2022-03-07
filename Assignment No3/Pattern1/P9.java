@@ -1,0 +1,26 @@
+/*pattern 9
+    A
+   A B 
+  A B C
+ A B C D 
+A B C D E 
+*/
+
+class P9
+{
+	public static void main(String args[])
+	{
+		for(char i='A' ; i<='E' ; i++)
+		{
+			for(char j='E' ; j>=i ;j--)
+			{
+				System.out.print(" ");
+			}
+			for(char k='A' ; k<=i ; k++)
+			{
+				System.out.print(k+" ");
+			}
+			System.out.println();
+		}
+	}
+}
