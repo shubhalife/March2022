@@ -11,18 +11,16 @@ class P10
 {
 	public static void main(String args[])
 	{
-		char m;
 		for(char i='E'; i>='A'; i--)
 		{
-			m=i;
+			
 			for(char j='B'; j<=i;j++)
 			{
 				System.out.print(" ");
 			}
-			for(char k='E' ; k>=i; k--)
+			for(char k=i ; k<='E'; k++)
 			{
-				System.out.print(m+" ");
-				m++;
+				System.out.print(k+" ");
 			}
 			System.out.println();
 		}
