@@ -10,18 +10,16 @@ class P8
 {
 	public static void main(String args[])
 	{
-		int m;
+		
 		for(int i=5;i>=1; i--)
 		{
-			m=i;
 			for(int j=2; j<=i ;j++)
 			{
 				System.out.print(" ");
 			}
-			for(int k=5; k>=i; k--)
+			for(int k=i; k<=5; k++)
 			{
-				System.out.print(m+" ");
-				m++;
+				System.out.print(k+" ");
 			}
 			System.out.println();
 		}
