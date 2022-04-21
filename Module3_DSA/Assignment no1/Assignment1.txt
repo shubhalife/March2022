@@ -1,0 +1,52 @@
+Q.What do you mean by Data Structures?
+Ans:-Data Structure can be defined as the group of data elements which provides 
+an efficient way of storing and organising data in the computer so that it can be used efficiently.
+e.g:-Array, Queue, Stack.
+
+Q.Define The Goals Of Data Structure?
+Ans:-It must rich enough in structure to reflect the actual relationship of data in real world.
+The Structure should be simple enough for efficient processing of data.
+
+Q.What is the Need of DS
+Ans:-We need a proper way of organizing the data 
+so that it can accessed efficiently when we need that particular data. DS provides 
+different ways of data organization so we have options to store 
+the data in different data structures based on the requirement.
+
+Q.List out the areas in which data structures are applied extensively(real time examples)?
+Ans:-Sending an e-mail, it will be queued.
+Used for plotting graphs, and statistics and also to do scientific studies and research in almost different fields.
+Web pages can be accessed using the previous and the next URL links which are linked using a linked list.
+
+Q.List different types of data structures.
+Ans:-Array, Linked List, Stack, Queues, Trees, Graph.
+
+Q.Difference between Primitive and Non Primitive DS
+Ans:-
+Primitive:- boolean, char, byte, short, int, long, float, double.
+Non-Primitive:-Array, Stack, Linked List, Queue, Tree, Graph. 
+
+Q.Write down the difference between Linear and Non-linear Data Structure.
+Ans:-
+Linear Data Structure:-
+It is a type of Data Structure where the data elements get linearly or sequentially arranged.
+The elements attach themselves to their next and previous adjacents. 
+A user can transverse each element through a single run.
+e.g.:-stack, array, linked list, queue, etc.
+
+Non-Linear Data Structure:-
+It is a form of data structure where the data elements don’t stay arranged linearly or sequentially. 
+Since the data structure is non-linear, it does not involve a single level. 
+Therefore, a user can’t traverse all of its elements in a single run.
+e.g.:-graphs and trees.
+
+Q.Prepare short note on ADT.
+Ans:-
+An abstract data type is an abstraction of a data structure that 
+provides only the interface to which the data structure must adhere. 
+The interface does not give any specific details about something should be implemented or in what programming language.
+In other words, we can say that abstract data types are the entities 
+that are definitions of data and operations but do not have implementation details.
+e.g:-a List is an abstract data type that is implemented using a dynamic array and linked list. 
+A queue is implemented using linked list-based queue, array-based queue, and stack-based queue. 
+A Map is implemented using Tree map, hash map, or hash table.

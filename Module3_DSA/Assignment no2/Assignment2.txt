@@ -1,0 +1,28 @@
+Assignment-2
+1) What is Recursion?
+Ans:-Recursion is a process by which a function calls itself, 
+The corresponding function is called as recursive function. 
+
+2) List and Explain types of Recursion 
+Ans:-Direct Recursion, Indirect Recursion, Tail Recursion, 
+No Tail/ Head Recursion, Linear recursion, Tree Recursion.
+
+3) Explain the data structures used to perform recursion? 
+Ans:-Stack is the data structure used to perform recursion.
+Explanation:
+Because of its LIFO (Last In First Out) property, it remembers its ‘caller’ so 
+knows whom to return when the function has to return. Recursion makes 
+use of the system stack for storing the return addresses of the function calls.
+
+Every recursive function has its equivalent iterative (non-recursive) function. 
+Even when such equivalent iterative procedures are written, an explicit stack is to be used.
+
+
+4)List the examples where recursion is used 
+Ans:- Fibonacci sequence,Dictionary,Tower of Hanoi
+
+5)Explain the difference between Recursion and Iteration, justify which to use when,Tail recursion?
+Ans:-
+Recursion is when a function calls itself within its code, thus repeatedly executing the instructions present inside it.
+
+Iteration is when a loop repeatedly executes the set of instructions like "for" loops and "while" loops. 
